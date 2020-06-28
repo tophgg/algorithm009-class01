@@ -1,7 +1,7 @@
 package main
 
 // 解法1：dfs
-// 解法2：bfs-dfs
+// 解法2：bfs-dfs-dfs
 // 解法3：并查集 flood fill
 func numIslands(grid [][]byte) int {
 	result := 0
@@ -31,7 +31,7 @@ func DFS(grid [][]byte, x int, y int) {
 }
 
 
-// bfs-dfs 队列bfs标记
+// bfs-dfs-dfs 队列bfs标记
 
 var fx = [4]int{1, 0, 0, -1}
 var fy = [4]int{0, 1, -1, 0}
@@ -79,7 +79,7 @@ func numIslands(grid [][]byte) int {
 }
 
 
-// bfs-dfs
+// bfs-dfs-dfs
 //var fx = [4]int{1, 0, 0, -1}
 //var fy = [4]int{0, 1, -1, 0}
 //var row, col int

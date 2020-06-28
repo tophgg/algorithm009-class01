@@ -1,6 +1,6 @@
 package main
 
-// 解法1：bfs-dfs，先找第一层起始变一个，能在库里的，每变一个就下沉一次，次数+1，直到变的结果等于end，匹配一个基因库的基因可以把它删除，因为要最少变化次数
+// 解法1：bfs-dfs-dfs，先找第一层起始变一个，能在库里的，每变一个就下沉一次，次数+1，直到变的结果等于end，匹配一个基因库的基因可以把它删除，因为要最少变化次数
 // 遍历基因的每个碱基，然后将其进行替换，如果在基因库中有候选，那就完成一次突变，并从基因库中将对应的基因删除
 func minMutation(start string, end string, bank []string) int {
 	used:=make(map[string]bool)

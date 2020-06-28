@@ -3,7 +3,7 @@ package main
 // 扫雷游戏
 var d = [8][2]int{{1,0},{0,1},{-1,0},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}}
 
-// 解法1：bfs-dfs+dfs
+// 解法1：bfs-dfs-dfs+dfs
 func updateBoard(board [][]byte, click []int) [][]byte {
 	a, b := click[0], click[1]
 	// 先判断是否终点

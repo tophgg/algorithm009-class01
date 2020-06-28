@@ -1,6 +1,6 @@
 package main
 
-// 解法1：bfs-dfs+dfs(如果是双向bfs，效果会更好)
+// 解法1：bfs-dfs-dfs+dfs(如果是双向bfs，效果会更好)
 // 解法2：双向bfs
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
 	//字典表（将wordList中的单词放入hash表中，方便查找）

@@ -1,7 +1,7 @@
 package main
 
 // 解法1：dfs
-// 解法2：bfs-dfs
+// 解法2：bfs-dfs-dfs
 // 解法3：并查集 flood fill
 func numIslands(grid [][]byte) int {
 	result := 0

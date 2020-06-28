@@ -1,7 +1,7 @@
 package main
 
 // 解法1：dfs 着色，8个方向
-// 解法2：bfs-dfs
+// 解法2：bfs-dfs-dfs
 var d = [8][2]int{{1,0},{-1,0},{0,1},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}}
 
 func updateBoard(board [][]byte, click []int) [][]byte {
